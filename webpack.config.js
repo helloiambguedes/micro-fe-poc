@@ -27,6 +27,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "micro-fe-poc",
+      template: "public/index.html",
     }),
   ],
 };

@@ -1,8 +1,7 @@
-import VanillaComponent from "./component";
+import vanillaComponent from "./component";
 
-const initVanillaApp = () => {
-  const element = document.getElementById("vanillaApp");
-  element.innerHTML = VanillaComponent;
+const initVanillaApp = (element) => {
+  element.innerHTML = vanillaComponent;
 };
 
 export default initVanillaApp;
