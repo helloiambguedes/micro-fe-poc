@@ -1,10 +1,12 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { VueLoaderPlugin } = require("vue-loader");
 
 const config = {
   entry: {
     vanillaApp: "./vanillaApp",
     reactApp: "./reactApp",
+    vueApp: "./vueApp",
   },
   output: {
     path: path.resolve(__dirname, "build"),
@@ -22,6 +24,10 @@ const config = {
           },
         },
       },
+      {
+        test: /\.vue$/,
+        use: "vue-loader",
+      },
     ],
   },
   plugins: [
@@ -29,6 +35,7 @@ const config = {
       title: "micro-fe-poc",
       template: "public/index.html",
     }),
+    new VueLoaderPlugin(),
   ],
 };
 

@@ -1,40 +1,43 @@
 {
-  "name": "micro-fe-poc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode production",
-    "start:dev": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development",
-    "format": "prettier --loglevel warn --write \"**/*.{js,css,md,json}\"",
-    "posttest": "npm run format"
-  },
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.3.0",
-    "prettier": "^2.0.5",
-    "serve": "^11.3.0",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bguedes-moz/micro-fe-poc.git"
-  },
-  "author": "bguedes <bruno.guedes@mozantech.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bguedes-moz/micro-fe-poc/issues"
-  },
-  "homepage": "https://github.com/bguedes-moz/micro-fe-poc#readme"
+    "name": "micro-fe-poc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode production",
+        "start:dev": "webpack-dev-server --mode development",
+        "build": "webpack --mode production",
+        "build:dev": "webpack --mode development",
+        "format": "prettier --loglevel warn --write \"**/*.{js,css,md,json}\"",
+        "posttest": "npm run format"
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "vue": "^2.6.11",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "@babel/preset-react": "^7.9.4",
+        "babel-loader": "^8.1.0",
+        "html-webpack-plugin": "^4.3.0",
+        "prettier": "^2.0.5",
+        "serve": "^11.3.0",
+        "vue-loader": "^15.9.2",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bguedes-moz/micro-fe-poc.git"
+    },
+    "author": "bguedes <bruno.guedes@mozantech.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bguedes-moz/micro-fe-poc/issues"
+    },
+    "homepage": "https://github.com/bguedes-moz/micro-fe-poc#readme"
 }
