@@ -5,7 +5,7 @@ const App = () => {
   console.log("rendering react app");
   return (
     <Fragment>
-      <h1 style={{ color: "blue" }}>This is a React application</h1>
+      <h1 style={{ color: "blue" }}>This is a React App</h1>
       <RepoList />
     </Fragment>
   );

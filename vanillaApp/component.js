@@ -14,7 +14,7 @@ window.fetchRepos = () => {
 };
 
 const VanillaComponent = `
-  <h1>This is a vanilla app</h1>
+  <h1>This is a Vanilla App</h1>
   <input id="githubSearchLanguage"/>
   <button onClick='window.fetchRepos()' style="background: white; border: 1px solid black; color: black; border-radius: 2px; height: 21px;">FETCH GITHUB REPOS</button>
 `;
